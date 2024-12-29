@@ -14,20 +14,33 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+<!-- Wrapper -->
+<div id="wrapper">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <span class="icon fa-gem"></span>
+        </div>
+        <div class="content">
+            <div class="inner">
+                <h1>PisagorAI</h1>
+                <p>Sharing fundamental analyses of crypto projects and blockchain innovations with AI-powered insights.<br />
+                Follow us on <a href="https://x.com/Pisagorai">Twitter</a> for more updates!</p>
+                
+                <!-- Start Butonu -->
+                <div class="button-container">
+                    <button onclick="openEmptyTab()">Start</button>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon fa-gem"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>PisagorAI</h1>
-<p>Sharing fundamental analyses of crypto projects and blockchain innovations with AI-powered insights.<br />
-Follow us on <a href="https://x.com/Pisagorai">Twitter</a> for more updates!</p>
+
+
+</script>
+
 
 							</div>
 						</div>
@@ -48,13 +61,21 @@ Follow us on <a href="https://x.com/Pisagorai">Twitter</a> for more updates!</p>
 				<!-- Main -->
 					<div id="main">
 <!-- Start -->
-	<article id="start">
+<article id="start">
     <h2 class="major">Start</h2>
     <span class="image main"><img src="images/pic01.jpg" alt="" /></span>
     <p>
-        <a href="javascript:void(0)" onclick="openNewTab()">Click to Open New Tab</a>
+        <a href="javascript:void(0)" onclick="openEmptyTab()">Click to Open New Tab</a>
     </p>
 </article>
+
+<script>
+ 
+    function openEmptyTab() {
+        window.open('about:blank', '_blank');  
+    }
+</script>
+
 
 <script>
     function openNewTab() {
